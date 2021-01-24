@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <title>HTML Academy: Нёрдс</title>
+  </head>
+  <body>
+  <header>
+    <nav>
+      <a href="index.html">
+          <img src="https://via.placeholder.com/159x60?text=Nerd's" alt="Логотип дизайн-студии Nerd's">
+    </a>
+      <ul>
+        <li><a href="#">СТУДИЯ</a></li>
+        <li><a href="#">КЛИЕНТЫ</a></li>
+        <li><a href="catalog.html"> МАГАЗИН </a></li>
+        <li><a href="#"> КОНТАКТЫ </a></li>
+      </ul>      
+      <a href="#"> КОРЗИНА </a>      
+    </nav>
+    </header>
+  <main>
+      <h1>Магазин готовых шаблонов</h1>
+      
+        <section>
+            <form action="https://echo.htmlacademy.ru" method="post">
+            <fieldset>
+                <legend>Стоимость</legend>
+              <input type="range" min="0" max="1500" step="1" value="750" name="value"> 
+              <input type="number" max="1500" value="0">
+              <input type="number" max="1500" value="1500">
+              </fieldset>
+            <fieldset>
+              <legend>Сетка:</legend>
+              <ul>
+                <li>
+                  <input type="radio" name="grid" value="adaptive" id="filter-adaptive">
+                  <label for="filter-adaptive">Адаптивная</label>
+                </li>
+                <li>
+                  <input type="radio" name="grid" value="hair-fixed" id="filter-fixed" checked>
+                  <label for="filter-fixed">Фиксированная</label>
+                </li>
+                <li>
+                  <input type="radio" name="grid" value="rubber_band" id="filter-rubber_band">
+                  <label for="filter-rubber_band">Резиновая</label>
+                </li>
+              </ul>
+            </fieldset>
+            <fieldset>                
+                <legend>Особенности:</legend>
+                <ul>
+                  <li>
+                    <input type="checkbox" name="slaider" id="filter-slaider">
+                    <label for="filter-slaider">Слайдер</label>
+                  </li>
+                  <li>
+                    <input type="checkbox" name="block_adv" id="filter-block_adv">
+                    <label for="filter-block_adv">Блок преимуществ</label>
+                  </li>
+                  <li>
+                    <input type="checkbox" name="news" id="filter-news" checked>
+                    <label for="filter-news">Новости</label>
+                  </li>
+                  <li>
+                    <input type="checkbox" name="malin-galary" id="filter-galary">
+                    <label for="filter-galary">Галерея</label>
+                  </li>
+                  <li>
+                    <input type="checkbox" name="rub" id="filter-rub">
+                    <label for="filter-rub">Корзина</label>
+                  </li>
+                </ul>
+              </fieldset>
+            <button type="submit">Показать</button>
+          </form>
+        </section>
+      
+        <section>
+          <p>Сортировать: </p>
+          <ul>
+              <li><a href="#">по цене</a></li>
+              <li><a href="#">по типу</a></li>
+              <li><a href="#">по названию</a></li>
+              <li><a href="#">по возвростанию/убыванию</a></li>
+          </ul>
+          
+          <ul>
+            <li>
+                <a href="#">
+                  <img src="https://via.placeholder.com/358x618?text=Сайт_1" alt="Сайт 1">
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <img src="https://via.placeholder.com/358x618?text=Сайт_2" alt="Сайт 2">
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <img src="https://via.placeholder.com/358x618?text=Сайт_3" alt="Сайт 3">
+                </a>
+            </li> 
+            <li>
+                <a href="#">
+                    <img src="https://via.placeholder.com/358x618?text=Сайт_4" alt="Сайт 4">
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                      <img src="https://via.placeholder.com/358x618?text=Сайт_5" alt="Сайт 5">
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                      <img src="https://via.placeholder.com/358x618?text=Сайт_6" alt="Сайт 6">
+                </a>
+            </li> 
+          </ul>
+          <ul>
+            <li>
+              <a href="#">1</a>
+            </li>
+            <li>
+              <a>2</a>
+            </li>
+            <li>
+              <a href="#">3</a>
+            </li>
+          </ul>
+              <a href="#">Следущая</a>
+        </section>
+
+  </main>
+  <footer>
+    <img src="https://via.placeholder.com/1440x416" alt="Карта">
+    <section>
+    <p>NЁRDS DESIGN STUDIO</p>
+    <p>191186, Санкт-Петербург,<br> ул. Б. Конюшенная, д. 19/8</p>
+    <p>тел. +7 (812) 275-75-75</p>
+    <button>Напишите нам</button>
+    </section>
+    <a href="https://vk.com/"><img src="https://via.placeholder.com/81x81?text=ВКонтакте" alt="ВКонтакте"></a>
+    <a href="https://ru-ru.facebook.com/"><img src="https://via.placeholder.com/81x81?text=Фейсбук" alt="Фейсбук"></a>
+    <a href="https://www.instagram.com/"><img src="https://via.placeholder.com/81x81?text=Инстаграм" alt="Инстаграм"></a>
+    <p>Давайте дружить, это выгодно!</p>
+    <p>Скидка 10% для друзей из социальных сетей.</p>
+  </footer>
+
+<section>
+  <h2>Напишите нам</h2>
+  <form action="https://echo.htmlacademy.ru" method="post">
+    <p>Ваше имя:</p>
+    <input type="text" placeholder="Имя" required>
+    <p>Ваш e-mail:</p>
+    <input type="email" placeholder="E-mail">
+    <p>Текст письма:</p>
+    <input type="text" placeholder="В свободной форме"><br>
+    <button type="submit">Отправить</button>
+  </form>
+</section>
+  </body>
+</html>
